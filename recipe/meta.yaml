@@ -1,13 +1,13 @@
 {% set name = "attr" %}
-{% set version = "2.4.47" %}
+{% set version = "2.4.48" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: http://download.savannah.gnu.org/releases/attr/attr-{{ version }}.src.tar.gz
-  sha256: 25772f653ac5b2e3ceeb89df50e4688891e21f723c460636548971652af0a859
+  url: http://download.savannah.gnu.org/releases/attr/attr-{{ version }}.tar.gz
+  sha256: 5ead72b358ec709ed00bbf7a9eaef1654baad937c001c044fe8b74c57f5324e7
 
 build:
   number: 0
@@ -36,3 +36,4 @@ about:
 extra:
   recipe-maintainers:
     - scopatz
+    - saraedum
