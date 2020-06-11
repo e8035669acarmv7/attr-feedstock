@@ -3,7 +3,7 @@ About attr
 
 Home: http://savannah.nongnu.org/projects/attr
 
-Package license: GPLv2
+Package license: GPL-2.0-or-later
 
 Feedstock license: BSD 3-Clause
 
@@ -175,5 +175,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@saraedum](https://github.com/saraedum/)
 * [@scopatz](https://github.com/scopatz/)
 
